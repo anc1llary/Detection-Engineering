@@ -1,7 +1,7 @@
 title: Suspicious Execution Path for colorcpl.exe
 status: experimental
 description: This rule detects if colorcpl.exe is ran outside of the default path. When copied to another folder, this binary can be used to facilitate dll search order hijacking.
-author: Neil Finneran
+author: Neil Finneran @0xancillary
 references:
     - https://www.mandiant.com/resources/blog/dprk-whatsapp-phishing
 tags:
