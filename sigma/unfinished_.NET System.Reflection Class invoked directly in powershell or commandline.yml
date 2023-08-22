@@ -10,13 +10,13 @@ logsource:
     #service:
     category: TBD
     product: windows
-    service: sysmon, powershell
+    service: powershell
 detection:
     selection:
-        CommandLine|contains:
-            - 'System.Reflection'
-    selection2:
-            - ''
-        condition: selection OR selection2
+        EventID: 4104
+        Message|contains:
+            - 'Reflection.Assembly'
+            - 'Reflection.Assembly.Load'
+        condition: selection
 falsepositives:
 level: medium
