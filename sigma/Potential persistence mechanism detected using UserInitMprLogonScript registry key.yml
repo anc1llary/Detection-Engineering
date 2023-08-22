@@ -1,7 +1,7 @@
 title: Potential persistence mechanism detected using UserInitMprLogonScript registry key.
 status: experimental
 description: UserInitMprLogonScript is a registry key that is set to facilitate execution of scripts upon logon of a specific user or group.  Threat actors leverage this registry key for persistence.
-author: Neil Finneran @ancillary
+author: Neil Finneran @0xancillary
 references:
     - https://attack.mitre.org/techniques/T1037/001/
 tags:
