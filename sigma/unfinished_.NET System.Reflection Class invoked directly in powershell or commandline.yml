@@ -7,7 +7,6 @@ references:
 tags:
     - attack.t1127
 logsource:
-    #service:
     category: TBD
     product: windows
     service: powershell
