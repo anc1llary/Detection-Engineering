@@ -1,4 +1,4 @@
-title: .NET System.Reflection Class invoked directly in powershell or commandline.
+title: .NET System.Reflection Class invoked directly with powershell.
 status: experimental
 description: System.Reflection is a .NET class that allows for .NET assemblies to be called and loaded directly into memory.  Adversaries leverage this class with powershell for fileless based malware.
 author: Neil Finneran @0xancillary
