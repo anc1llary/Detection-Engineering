@@ -1,0 +1,22 @@
+title: Suspicious Command Line Argument Execution With colorcpl.exe
+status: experimental
+description: The binary colorcpl.exe is not typically launched with command line arguments.  Threat actors sometimes use the command line to store data like decryption keys and other operational aspects of the malware.
+author: Neil Finneran @0xancillary
+references:
+    - https://www.mandiant.com/resources/blog/dprk-whatsapp-phishing
+tags:
+    - attack.t1146
+logsource:
+    category: process_creation
+    product: windows
+    service: sysmon
+detection:
+    selection:
+        EventID: 1
+        OriginalFileName: 'colorcpl.exe'
+    filter:
+        CommandLine|endswith: ' '
+    condition: selection AND filter
+falsepositives:
+    - Prilimenary research suggests there are not command line arguments for colorcpl.exe, however, since this simply detects a space at the end there may be circumstances where false positives can be generated.
+level: medium
