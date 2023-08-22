@@ -3,7 +3,7 @@ status: experimental
 description: System.Reflection is a .NET class that allows for .NET assemblies to be called and loaded directly into memory.  Adversaries leverage this class with powershell for fileless based malware.
 author: Neil Finneran @0xancillary
 references:
-    -
+    - https://www.elastic.co/security-labs/hunting-memory-net-attacks
 tags:
     - attack.t1127
 logsource:
