@@ -17,5 +17,5 @@ detection:
             - 'Reflection.Assembly'
             - 'Reflection.Assembly.Load'
         condition: selection
-falsepositives:
+falsepositives: There are legitimate purposes for using this functionality but depending on the environment this may be rare.
 level: medium
