@@ -2,7 +2,7 @@
 
 ## About
 
-This repository is a personal store of SIGMA, YARA, and Splunk based detection rule-sets.  Much of these are tested in a lab environment so behavior on a larger network may vary, so use at your own risk! 
+This repository is a personal store of SIGMA, YARA, and Splunk based detection rule-sets created by myself unless stated otherwise.  Much of these are tested in a lab environment so behavior on a larger network may vary, so use at your own risk! 
 
 ## Other notes
 
