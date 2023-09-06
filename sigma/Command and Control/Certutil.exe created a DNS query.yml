@@ -12,8 +12,8 @@ logsource:
     product: windows
 detection:
     selection:
-        winlog.event_data.Image|endswith: "certutil.exe"
-        winlog.task|contains: 'dns'
+        Image|endswith: "certutil.exe"
+        task|contains: 'dns'
     condition: selection
 falsepositives:
     - Certutil can be used legitimately but not often for downloading files.
