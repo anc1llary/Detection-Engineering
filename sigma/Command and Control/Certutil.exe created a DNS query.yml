@@ -2,9 +2,9 @@ title: Certutil.exe created a DNS query
 status: experimental
 description: Certutil is a LOLbin bundled with Windows that provides functionality for legitimate purposes.  This binary also provides the ability to download and save files.  Threat actors use this as an alternate way to download malware onto a system.
 tags: 
-    - attack.t1105 #Ingress Tool Transfe
+    - attack.t1105 #Ingress Tool Transfer
     - attack.attack.s0160 #Software: certutil, certutil.exe
-author: Neil Finneran
+author: Neil Finneran, 0xancillary
 references:
     - networkdefense.io course
 logsource:
